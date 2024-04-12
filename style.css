@@ -1,0 +1,88 @@
+img {
+    width: 350px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #ff7700;
+    color: #fff;
+}
+
+header p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a:hover {
+    color: #723805;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-txt {
+    max-width: 300px;
+}
+
+.main-txt h2 {
+    color: #ff7700;
+    margin-bottom: 1rem;
+}
+.main-txt p {
+    margin-bottom: 1rem;
+}
+
+form input {
+    padding: .7rem;
+    border-radius: .7rem;
+    border: 1px solid #000;
+}
+
+.btn {
+    background-color: #ff7700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #723805;
+    transition: .5s;
+}
+.volei{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ff7700;
+}
